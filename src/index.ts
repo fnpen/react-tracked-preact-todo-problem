@@ -3,7 +3,8 @@
 
 import React from 'react';
 import { render } from 'react-dom';
-import App from './App';
+import { App } from './Counter';
+// import App from './App';
 
 const ele = document.getElementById('app');
 if (!ele) throw new Error('no app');
